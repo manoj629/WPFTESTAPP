@@ -59,6 +59,15 @@
 				<Prp name="type" type="S" value="{9252F941-DB23-4FCA-AA50-858B33BB4A19}"/>
 				<Prp name="typename" type="S" value="Script"/>
 			</Node>
+			<Node name="stores">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Stores\Stores.tcStores"/>
+				</Node>
+				<Prp name="key" type="S" value="{796006A3-999F-44CD-8CE7-79587D7F3915}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}"/>
+				<Prp name="typename" type="S" value="Stores"/>
+			</Node>
 			<Node name="testedapps">
 				<Node name="item data">
 					<Prp name="storage" type="S" value="TestedApps\TestedApps.tcTAs"/>

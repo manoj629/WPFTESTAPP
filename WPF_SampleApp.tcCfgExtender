@@ -25,11 +25,42 @@
 				<Node name="{8ee82d46-af98-4371-988c-39e367c94873}"/>
 			</Node>
 			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
-				<Prp name="activity" type="S" value="{000F2892-28AB-4712-B153-4DBBF12DCC6D}"/>
+				<Prp name="activity" type="S" value="{29FCEC17-76CE-4178-865D-37228B548E7B}"/>
 			</Node>
-			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}"/>
+			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}">
+				<Node name="{5793b2a4-834e-4519-8269-8db4b2cbe65c}">
+					<Prp name="hash" type="I" value="1"/>
+				</Node>
+			</Node>
 			<Node name="{415b5aa1-c6ac-4d4d-9a53-063a521a45ab}">
-				<Node name="workspace"/>
+				<Node name="workspace">
+					<Node name="0">
+						<Node name="editor">
+							<Node name="{8c45957c-f4b3-4dd7-9212-49cbd350f69f}">
+								<Prp name="key" type="S" value="{67BB0B7F-B358-4BE5-9613-62A0BDD44558}"/>
+							</Node>
+							<Node name="{90fe4d39-229d-4887-ac6f-07b02ce523fc}">
+								<Node name="main">
+									<Prp name="height" type="I" value="150"/>
+									<Prp name="minimized" type="B" value="-1"/>
+								</Node>
+								<Node name="tables">
+									<Prp name="active" type="S" value=""/>
+								</Node>
+								<Node name="toolbox">
+									<Prp name="active" type="S" value="Checkpoints"/>
+								</Node>
+								<Prp name="key" type="S" value="{BC047983-44A7-4F32-B13D-B06FE1887185}"/>
+							</Node>
+							<Prp name="editor" type="S" value="{87E6E7F9-3450-479B-94A9-CCF9A6E06CB2}"/>
+							<Prp name="focused" type="S" value="{BC047983-44A7-4F32-B13D-B06FE1887185}"/>
+						</Node>
+						<Prp name="edititem" type="S" value="{29FCEC17-76CE-4178-865D-37228B548E7B}"/>
+					</Node>
+					<Prp name="docking" type="H" value="617162696EF37A0101000000C00100007801730C74F177F6E662800231205DC1CCC0E0C60413C14797334264EF783F7BEFDEFAD17971E7F52BA56F643919ED80124053187A4D9498ED8F2B78EE5A3EE5B926F3FF9E9B40F12AA078202B03C32A4C2B58F0590692FB0F058780E69CC0C2C7AF1FE4DAF950253F9F3F6B0F3099ED3E65E5999FCB1EE46CBA03949C0694F301BA6C19B2CB807C86108654866286120643209BC66E843A8F680A0041A04B39"/>
+					<Prp name="editorscount" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+				</Node>
 			</Node>
 			<Node name="{78a745b3-10ae-4253-9f16-55a8bcaf43c6}">
 				<Prp name="history" type="S" value=""/>
@@ -61,10 +92,14 @@
 					<Node name="testproject1">
 						<Node name="advanced">
 							<Node name="events"/>
+							<Node name="script"/>
 						</Node>
 						<Node name="keywordtests"/>
 						<Node name="testedapps"/>
 					</Node>
+				</Node>
+				<Node name="wpf_sampleapp logs">
+					<Node name="testproject1 logs"/>
 				</Node>
 			</Node>
 		</Node>

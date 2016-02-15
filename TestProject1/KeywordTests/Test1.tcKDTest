@@ -16,6 +16,13 @@
 					</Parameters>
 				</Data>
 			</Operation>
+			<Operation Type="{9DA3A5C5-0CCC-4919-831F-D38151308069}">
+				<Data Description="Compares the %n Stores item with the properties of the %p1 object." Checkpoint="HwndSource_MainWindow1">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="AObject" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.WpfSampleApplication.HwndSource_MainWindow" />
+					</Parameters>
+				</Data>
+			</Operation>
 		</Children>
 	</TestData>
 	<Variables Version="3" Key="{4DAA52FE-5A72-463D-8351-7E85F6277D71}" />
