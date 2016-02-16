@@ -25,7 +25,7 @@
 				<Node name="{8ee82d46-af98-4371-988c-39e367c94873}"/>
 			</Node>
 			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
-				<Prp name="activity" type="S" value="{8AF62736-9944-49DB-AE6B-DEC7E7E49D1E}"/>
+				<Prp name="activity" type="S" value="{D69F3046-3B2B-4978-B40D-8CB56425D085}"/>
 			</Node>
 			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}">
 				<Node name="{16af5820-a160-4a37-bffe-417997364c6c}">
@@ -37,7 +37,35 @@
 			</Node>
 			<Node name="{415b5aa1-c6ac-4d4d-9a53-063a521a45ab}">
 				<Node name="workspace">
-					<Prp name="editorscount" type="I" value="0"/>
+					<Node name="0">
+						<Node name="editor">
+							<Node name="{8c45957c-f4b3-4dd7-9212-49cbd350f69f}">
+								<Prp name="key" type="S" value="{D530071E-F618-4BA3-8839-8131684FBE79}"/>
+							</Node>
+							<Node name="{d0151f8e-51fe-49da-8534-008b9f1b7c45}">
+								<Prp name="col" type="I" value="28"/>
+								<Prp name="key" type="S" value="{38B33C7C-6D9B-43B3-A06B-BF5B34ACFC63}"/>
+								<Prp name="line" type="I" value="37"/>
+								<Prp name="sellength" type="I" value="0"/>
+								<Prp name="selstart" type="I" value="875"/>
+								<Prp name="windowchar" type="I" value="0"/>
+								<Prp name="windowline" type="I" value="25"/>
+							</Node>
+							<Prp name="editor" type="S" value="{01E86CE1-BC91-4F7F-9785-7D8A859AFA72}"/>
+							<Prp name="focused" type="S" value="{38B33C7C-6D9B-43B3-A06B-BF5B34ACFC63}"/>
+						</Node>
+						<Prp name="edititem" type="S" value="{D69F3046-3B2B-4978-B40D-8CB56425D085}"/>
+					</Node>
+					<Node name="1">
+						<Node name="editor">
+							<Prp name="editor" type="S" value="{7EE7BB77-C1F9-43A1-8607-B79FE46C4305}"/>
+							<Prp name="focused" type="S" value="{8254E11F-92BE-4DA8-8D0E-628CDC6BB61D}"/>
+						</Node>
+						<Prp name="edititem" type="S" value="{25C37806-ADF4-46DA-8ACE-9899FCA45EC6}"/>
+					</Node>
+					<Prp name="docking" type="H" value="617162696E00000001000000770200007801730C74F177F6E662800231205DC1CCC0E0C60413C147EB4155DDF17EF6DEBDF5A3F3E2CEEB574ADFC872327E656460009AC260E278EDE8BB750DFECBA3DEF31EC99C7FE62650BC0A281EC8CAC0B00AD30A167C9681E4FE43C121A03927B0F0F1EB0759B812AAA47CF7F3BA9F07173AB7B16F9FFF24C799F50ED0C46940391FA0CB9621BB0C1434C10C250C890C454052812100C84A6748058AD2D8B5401B608E7D98F38271E29E7AFFE9ADB55DADB37E15E1756C08D071C540A7063324039D9CC9500064D3C3B1C000241E0000EFA9714F"/>
+					<Prp name="editorscount" type="I" value="2"/>
+					<Prp name="enabled" type="B" value="-1"/>
 				</Node>
 			</Node>
 			<Node name="{78a745b3-10ae-4253-9f16-55a8bcaf43c6}">
@@ -78,7 +106,14 @@
 				</Node>
 			</Node>
 			<Node name="{fc9c0755-2819-4b25-8964-06a87b81e1ad}">
-				<Node name="wpf_sampleapp"/>
+				<Node name="wpf_sampleapp">
+					<Node name="testproject">
+						<Node name="advanced">
+							<Node name="script"/>
+						</Node>
+					</Node>
+					<Node name="testproject1"/>
+				</Node>
 				<Node name="wpf_sampleapp logs"/>
 			</Node>
 		</Node>
