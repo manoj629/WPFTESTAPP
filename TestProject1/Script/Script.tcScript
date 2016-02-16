@@ -20,9 +20,9 @@
 <Nodes version="1">
 	<Node name="root">
 		<Node name="child list">
-			<Node name="unit1">
+			<Node name="testscript">
 				<Node name="item data">
-					<Prp name="relpath" type="S" value="Unit1.sj"/>
+					<Prp name="relpath" type="S" value="TestScript.sj"/>
 				</Node>
 				<Prp name="key" type="S" value="{D69F3046-3B2B-4978-B40D-8CB56425D085}"/>
 				<Prp name="pluginname" type="S" value="Script"/>

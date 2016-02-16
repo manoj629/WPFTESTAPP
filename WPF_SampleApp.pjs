@@ -23,11 +23,20 @@
 			<Prp name="key" type="S" value="{CED75068-73A1-47BE-847F-773934A4C307}"/>
 		</Node>
 		<Node name="child list">
-			<Node name="testproject1">
+			<Node name="testproject">
 				<Node name="item data">
-					<Prp name="relpath" type="S" value="TestProject1\TestProject1.mds"/>
+					<Prp name="relpath" type="S" value="TestProject1\TestProject.mds"/>
 				</Node>
 				<Prp name="key" type="S" value="{A64CCCFF-7CB7-4495-B749-E6281679415D}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
+			<Node name="testproject1">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="D:\TestProject1\TestProject1.mds"/>
+				</Node>
+				<Prp name="key" type="S" value="{8AF62736-9944-49DB-AE6B-DEC7E7E49D1E}"/>
 				<Prp name="pluginname" type="S" value=""/>
 				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
 				<Prp name="typename" type="S" value="Project"/>
@@ -53,6 +62,13 @@
 					<Prp name="description" type="S" value=""/>
 					<Prp name="enabled" type="B" value="-1"/>
 					<Prp name="key" type="S" value="{A64CCCFF-7CB7-4495-B749-E6281679415D}"/>
+					<Prp name="stoponerror" type="B" value="-1"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item idx=0001">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="key" type="S" value="{8AF62736-9944-49DB-AE6B-DEC7E7E49D1E}"/>
 					<Prp name="stoponerror" type="B" value="-1"/>
 					<Prp name="timeout" type="I" value="0"/>
 				</Node>

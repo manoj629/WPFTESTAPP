@@ -25,9 +25,12 @@
 				<Node name="{8ee82d46-af98-4371-988c-39e367c94873}"/>
 			</Node>
 			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
-				<Prp name="activity" type="S" value="{29FCEC17-76CE-4178-865D-37228B548E7B}"/>
+				<Prp name="activity" type="S" value="{A64CCCFF-7CB7-4495-B749-E6281679415D}"/>
 			</Node>
 			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}">
+				<Node name="{16af5820-a160-4a37-bffe-417997364c6c}">
+					<Prp name="hash" type="I" value="1"/>
+				</Node>
 				<Node name="{5793b2a4-834e-4519-8269-8db4b2cbe65c}">
 					<Prp name="hash" type="I" value="1"/>
 				</Node>
@@ -36,8 +39,9 @@
 				<Node name="workspace">
 					<Node name="0">
 						<Node name="editor">
+							<Node name="{4f9540d5-d9ab-44cd-8dca-73f5f2e7a572}"/>
 							<Node name="{8c45957c-f4b3-4dd7-9212-49cbd350f69f}">
-								<Prp name="key" type="S" value="{67BB0B7F-B358-4BE5-9613-62A0BDD44558}"/>
+								<Prp name="key" type="S" value="{675A85A9-B7FF-42B8-A38F-6E5D44B6FB1A}"/>
 							</Node>
 							<Node name="{90fe4d39-229d-4887-ac6f-07b02ce523fc}">
 								<Node name="main">
@@ -50,8 +54,9 @@
 								<Node name="toolbox">
 									<Prp name="active" type="S" value="Checkpoints"/>
 								</Node>
-								<Prp name="key" type="S" value="{BC047983-44A7-4F32-B13D-B06FE1887185}"/>
+								<Prp name="key" type="S" value="{9CEF8005-1863-4E0E-A558-A17C6905559E}"/>
 							</Node>
+							<Node name="{eb7c9d82-bc63-4167-ad95-a6b053bbda71}"/>
 							<Prp name="editor" type="S" value="{87E6E7F9-3450-479B-94A9-CCF9A6E06CB2}"/>
 							<Prp name="focused" type="S" value="{BC047983-44A7-4F32-B13D-B06FE1887185}"/>
 						</Node>
@@ -74,32 +79,35 @@
 						</Node>
 					</Node>
 					<Node name="{29fcec17-76ce-4178-865d-37228b548e7b}\testdata">
-						<Node name="expanding"/>
+						<Node name="expanding">
+							<Prp name="expandlist" type="H" value="617162696E0000000100000004000000780163606060000000040001"/>
+						</Node>
+					</Node>
+					<Node name="{db4c93f7-f182-40b2-8945-8f335ed5fb9c}\testdata">
+						<Node name="expanding">
+							<Prp name="expandlist" type="H" value="617162696E0000000100000004000000780163606060000000040001"/>
+						</Node>
 					</Node>
 				</Node>
 			</Node>
 			<Node name="{d0151f8e-51fe-49da-8534-008b9f1b7c45}">
 				<Node name="{00000000-0000-0000-0000-000000000000}">
+					<Node name="{963c93bc-c42d-4d58-84e2-167ee2196444}">
+						<Prp name="bottom" type="I" value="39"/>
+						<Prp name="collapsed" type="B" value="0"/>
+						<Prp name="top" type="I" value="0"/>
+					</Node>
 					<Node name="{d69f3046-3b2b-4978-b40d-8cb56425d085}">
-						<Prp name="bottom" type="I" value="0"/>
+						<Prp name="bottom" type="I" value="39"/>
 						<Prp name="collapsed" type="B" value="0"/>
 						<Prp name="top" type="I" value="0"/>
 					</Node>
 				</Node>
 			</Node>
 			<Node name="{fc9c0755-2819-4b25-8964-06a87b81e1ad}">
-				<Node name="wpf_sampleapp">
-					<Node name="testproject1">
-						<Node name="advanced">
-							<Node name="events"/>
-							<Node name="script"/>
-						</Node>
-						<Node name="keywordtests"/>
-						<Node name="testedapps"/>
-					</Node>
-				</Node>
+				<Node name="wpf_sampleapp"/>
 				<Node name="wpf_sampleapp logs">
-					<Node name="testproject1 logs"/>
+					<Node name="testproject logs"/>
 				</Node>
 			</Node>
 		</Node>

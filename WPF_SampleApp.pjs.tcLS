@@ -23,8 +23,11 @@
 			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
 				<Prp name="default project" type="S" value="{A64CCCFF-7CB7-4495-B749-E6281679415D}"/>
 			</Node>
+			<Node name="{8af62736-9944-49db-ae6b-dec7e7e49d1e}">
+				<Prp name="relpath" type="S" value="D:\TestProject1\TestProject1.mds.tcLS"/>
+			</Node>
 			<Node name="{a64cccff-7cb7-4495-b749-e6281679415d}">
-				<Prp name="relpath" type="S" value="TestProject1\TestProject1.mds.tcLS"/>
+				<Prp name="relpath" type="S" value="TestProject1\TestProject.mds.tcLS"/>
 			</Node>
 			<Node name="logs">
 				<Prp name="key" type="S" value="{30AE07DE-E39C-45F5-AE35-B695464304FD}"/>
