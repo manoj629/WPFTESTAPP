@@ -38,3 +38,13 @@ function verifyTextBoxItems(Obj,Value)
       Log.Error("Mismatch");
    }
 }
+
+function higlightScreen(obj,count,color)
+{
+  Sys.HighlightObject(obj,count,color);
+}
+
+function closeApplication(obj)
+{ 
+  obj.Close(100);
+}
