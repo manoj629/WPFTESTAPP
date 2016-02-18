@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="350"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="525"/>
+					<Prp name="line #" type="I" value="46"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="42417.2963006944"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.WpfSampleApplication.WPF_MainWindow"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The 'MainWindow' window was closed."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="46"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="42417.5254728819"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.WpfSampleApplication.WPF_MainWindow&#xA;(Sys.Process(&quot;WpfSampleApplication&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;MainWindow&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="7"/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="message" type="S" value="Wait for application to load"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="42417.5252370833"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="id" type="I" value="3"/>
+		</Node>
+		<Node name="message 5">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="message" type="S" value="Screenshot of Main Window"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="42417.5254411343"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="type" type="I" value="4"/>
+			<Prp name="id" type="I" value="5"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="1.Launch the WPF Application"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="42417.5251295023"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="id" type="I" value="0"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 6">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The property checkpoint passed (the WndCaption equals &quot;MainWindow&quot;)."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="13"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="42417.5254651505"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;																	   &lt;head&gt;																	   &lt;style&gt;																	   body, table																	   {font-family : Courier New, Arial; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0; width: 100%; text-align:left}																	   TH																	   {font-weight : normal;}																	   TD																	   { border-bottom: 2px solid #A0B5D0;}																	   SPAN.Gray																	   {color: #6D6D6D; }																	   SPAN.GrayBold																	   {font-weight: bold; color: #6D6D6D; }																	   SPAN.Bold																	   {font-weight: bold;}																	   .BoldLineBottom																	   {border-bottom: 2px solid #A0B5D0}																	   .BoldLineTop																	   {border-top: 2px solid #A0B5D0}																	   .BK {background-color: #DBEFFD}																	   .HB																	   {width:10%; white-space:nowrap;padding: 4px 4px 4px 4px;font-weight : bold;}																	   &lt;/style&gt;																	   &lt;/head&gt;																	   &lt;body&gt;																	   &lt;p&gt;The &quot;WndCaption&quot; property of the &quot;&lt;a href=&quot;lnamemapping://{D86AD2CB-C546-4181-BFCC-E48DDBECFC37}.{A9949870-E87E-47BD-BFE2-8A3D934A80D2}&quot;&gt;Aliases.WpfSampleApplication.WPF_MainWindow&lt;/a&gt;&quot; object meets the checkpoint's condition.&lt;/p&gt;																	   &lt;table border=0 cellspacing=0 cellpadding=3&gt;																	   &lt;thead class='BK' valign=&quot;top&quot;&gt;																	   &lt;tr&gt;																	   &lt;th class='BoldLineTop HB'&gt;Object name:&lt;/th&gt;																	   &lt;th class='BoldLineTop'&gt;Aliases.WpfSampleApplication.WPF_MainWindow&lt;/th&gt;																	   &lt;/tr&gt;																	   &lt;tr&gt;																	   &lt;th class='BoldLineBottom HB'&gt;Property:&lt;/th&gt;																	   &lt;th class='BoldLineBottom'&gt;WndCaption&lt;/th&gt;																	   &lt;/tr&gt;																	   &lt;/thead&gt;																	   &lt;tbody valign=&quot;top&quot;&gt;																	   &lt;tr&gt;																	   &lt;td class='BK HB'&gt;Actual value&lt;/td&gt;																	   &lt;td&gt;&quot;MainWindow&quot;&lt;/td&gt;																	   &lt;/tr&gt;																	   &lt;tr&gt;																	   &lt;td class='BK HB'&gt;Expected value&lt;/td&gt;																	   &lt;td&gt;&quot;MainWindow&quot;&lt;/td&gt;																	   &lt;/tr&gt;																	   &lt;tr&gt;																	   &lt;td class=&quot;BK HB&quot;&gt;&lt;SPAN CLASS='Bold'&gt;Condition&lt;/SPAN&gt;&lt;/td&gt;																	   &lt;td&gt;cmpEqual&lt;/td&gt;																	   &lt;/tr&gt;																	   &lt;tr&gt;																	   &lt;td class=&quot;BK HB&quot;&gt;&lt;SPAN CLASS='Bold'&gt;Case-sensitive&lt;/SPAN&gt;&lt;/td&gt;																	   &lt;td&gt;true&lt;/td&gt;																	   &lt;/tr&gt;																	   &lt;/tbody&gt;																	   &lt;/table&gt;																	   																	   &lt;/body&gt;																	   &lt;/html&gt;"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="id" type="I" value="6"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 2">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The application &quot;C:\Users\manoj_paliwal\Desktop\WpfSampleApplication.exe&quot; started."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="42417.5251377894"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="The process ID is 7700."/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="id" type="I" value="2"/>
+		</Node>
+		<Node name="n-0">
+			<Node name="data">
+				<Prp name="d-0" type="D" value="42417.5254728935"/>
+			</Node>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="color" type="I" value="0"/>
+			<Prp name="description" type="S" value=""/>
+			<Prp name="id" type="S" value="{5C4EF7C7-C2C9-43CB-85AE-66E5E6E35778}"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="length" type="I" value="1"/>
+			<Prp name="name" type="S" value="Date&amp;Time"/>
+			<Prp name="columnindex" type="I" value="0"/>
+			<Prp name="countertype" type="I" value="4"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="message" type="S" value="1.Launch the WPF Application"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="42417.5251300694"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="id" type="I" value="1"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{29FCEC17-76CE-4178-865D-37228B548E7B}"/>
+			<Prp name="unit 1" type="S" value="{D69F3046-3B2B-4978-B40D-8CB56425D085}"/>
+		</Node>
+		<Node name="message 4">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The object checkpoint &quot;HwndSource_MainWindow1&quot; passed."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="42417.5253273958"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;a href=&quot;projectnode://{A4B30B77-D89F-4538-98D1-BEA383D68326}&quot;&gt; Click here to show or modify data of the checkpoint &quot;HwndSource_MainWindow1&quot;. &lt;/a&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="id" type="I" value="4"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+		<Prp name="perfcounterslength" type="I" value="1"/>
+	</Node>
+</Nodes>
