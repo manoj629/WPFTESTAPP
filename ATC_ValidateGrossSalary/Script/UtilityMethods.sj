@@ -45,5 +45,6 @@ function higlightScreen(obj,count,color)
 
 function closeApplication(obj)
 { 
-  obj.Close(100);
+  if(Aliases.WpfSampleApplication.WPF_MainWindow.Exists)
+    obj.Close(100);
 }
