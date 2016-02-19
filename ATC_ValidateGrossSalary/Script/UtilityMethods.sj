@@ -14,6 +14,7 @@ for(var itemIndex=0;itemIndex<ItemCount;itemIndex++)
      ComboBoxObj.ClickItem(itemIndex);
      Log.Message("Successfully clicked at the item:" + Itemname);
      return;
+	 
     } 
  }
  Log.Error("Can't find item:"+Itemname);
